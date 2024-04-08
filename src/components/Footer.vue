@@ -14,7 +14,6 @@
 
 <template>
   
-  <button @click="store.counter++" class="btn btn-primary">incrementa</button>
 
 </template>
 
