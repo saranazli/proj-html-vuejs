@@ -19,7 +19,7 @@
 
 <template>
   
-  <section class="container">
+  <section class="container d-flex justify-content-center justify-content-between align-items-center  cs_header">
       
     <div class="logo_front">
       <img src="/public/img/dark-pet-logo-x.png" alt="logo">
@@ -45,13 +45,17 @@
 </template>
 
 
-<style lang="sss" scoped>
+<style lang="scss" scoped>
 
-  @import '../../../assets/scss/main.scss';
+  @use '../../../assets/scss/main.scss';
 
-  .logo_front{
-    width: 240px;
-    height: 490px;
+  
+  .cs_header{
+    height: 75px;
+    .logo_front{
+      width: 240px;
+      height: 40px;
+    }
   }
 
 </style>

@@ -24,7 +24,7 @@
 
 <template>
   
-  <section class="container d-flex justify-content-center justify-content-between cs_header align-items-center">
+  <section>
 
     <Nav_top />
     
@@ -34,10 +34,8 @@
 
 </template>
 
-<style lang="sss" scoped>
+<style lang="scss" scoped>
 
-  .cs_header{
-    height: 135px;
-  }
+ 
 
 </style>
