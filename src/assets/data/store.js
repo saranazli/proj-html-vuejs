@@ -32,7 +32,14 @@ export const store = reactive ({
 
   jumbo : {
     j_img : 'banner-5-x-scaled.jpg',
-    paw : 'bg-transparent-3'
+    paw : 'bg-transparent-3',
+    btmImg : 'food-transparent-5.png',
+    
+    bottomJ : [
+      'Get 25$ OFF your first puchase of our homemade pet food!',
+      'visit the shop'
+    ]
+
   }
     
 })
