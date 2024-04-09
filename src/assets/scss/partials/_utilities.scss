@@ -4,9 +4,25 @@
 $bg_we_star: #dcd5d0;
 $down_pink: #faf4f4; 
 $s_light_grey: #f3f4f3;
+$heavy_metal_green: #2a382a;
 
 // styles
 
 .bold{
   font-weight: bold;
+}
+
+// flex
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.around{
+  justify-content: space-around;
 }
