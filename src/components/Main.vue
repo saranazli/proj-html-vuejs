@@ -15,9 +15,7 @@
 
 <template>
   
-  <div class="gen">
-    
-  </div>
+  <div>Main</div>
 
 </template>
 
