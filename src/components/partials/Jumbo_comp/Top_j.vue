@@ -24,7 +24,7 @@
         <span class="bold">
           International
         </span>
-        <span>
+        <span class="opac">
           Shipping Service
         </span>
       </div>
@@ -33,13 +33,13 @@
         <span class="me-2">
           <i class="fa-regular fa-clock"></i>
         </span>
-        <span>
+        <span class="opac">
           See our
         </span>
         <span class="bold">
           store hours
         </span>
-        <span>
+        <span class="opac">
           and service
         </span>
 
@@ -49,7 +49,7 @@
         <span class="me-2">
           <i class="fa-solid fa-check"></i>
         </span>
-        <span>
+        <span class="opac">
           We price match to give you the
         </span>
         <span class="bold">
@@ -70,7 +70,10 @@
     background-color: $heavy_metal_green;
     background-image: url(/img/bg-transparent-3.png);
     color: white;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
+    .opac{
+      opacity: 0.7;
+    }
   }
 
 </style>
