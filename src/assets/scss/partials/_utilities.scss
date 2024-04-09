@@ -16,10 +16,18 @@ $heavy_metal_green: #2a382a;
   color: gray;
 }
 
+.white{
+  color: white;
+}
+
 // flex
 
 .center{
   justify-content: center;
+  align-items: center;
+}
+
+.a_center{
   align-items: center;
 }
 

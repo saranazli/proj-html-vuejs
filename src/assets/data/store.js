@@ -10,6 +10,17 @@ export const store = reactive ({
 
   },
 
+  icons : [
+    {
+      icon: '<i class="fa-solid fa-bag-shopping"></i>',
+      href: '#'
+    },
+    {
+      icon: '<i class="fa-solid fa-user"></i>',
+      href: '#'
+    }
+  ],
+
   bottomNavBar : [
     'Home',
     'Shop',

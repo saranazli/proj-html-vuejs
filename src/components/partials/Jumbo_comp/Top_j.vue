@@ -14,7 +14,7 @@
 </script>
 
 <template>
-  <section class="top_j d-flex center">
+  <section class="top_j d-flex center white">
     <div class="container-xl d-flex around center">
 
       <div>
@@ -69,7 +69,6 @@
     height: 65px;
     background-color: $heavy_metal_green;
     background-image: url(/img/bg-transparent-3.png);
-    color: white;
     font-size: 0.8rem;
     .opac{
       opacity: 0.7;

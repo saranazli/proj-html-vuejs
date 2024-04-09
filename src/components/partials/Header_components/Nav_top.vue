@@ -39,8 +39,16 @@
       </div>
   
       <div>
-        <i class="fa-solid fa-bag-shopping pe-2"></i>
-        <i class="fa-solid fa-user ps-2"></i>
+        <ul class="d-flex">
+          <li class="mx-2"
+          v-for="(icon, index) in store.icons" 
+          :key="index">
+            <a 
+            v-html="icon.icon" 
+            :href="`ic${icon.href}`">
+            </a>
+          </li>
+        </ul>
       </div>
   
     </div>
