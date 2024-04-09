@@ -25,8 +25,5 @@
 
   @use '../assets/scss/main.scss' as*;
 
-  .gen{
-    background-color: $bg-color;
-  }
 
 </style>

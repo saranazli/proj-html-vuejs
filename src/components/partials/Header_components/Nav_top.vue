@@ -7,8 +7,9 @@
   import '@fortawesome/fontawesome-free/js/all.js';
 
   export default {
-    data(){
-      return{
+
+    data() {
+      return {
         store
       }
     }
@@ -24,22 +25,22 @@
     <div class="container d-flex justify-content-center justify-content-between align-items-center h-100">
       
       <div class="logo_front">
-        <img src="/img/dark-pet-logo-x.png" alt="logo">
+        <img :src="`/img/${store.topNavBar.logo}`" alt="logo">
+      </div>
+  
+      <div class="search_b d-flex justify-content-center justify-content-between align-items-center">
+        <i class="fa-solid fa-magnifying-glass ps-4"></i>
+        <input class="form-control" type="text" placeholder="search...">
       </div>
   
       <div>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" placeholder="search...">
+        <span class="bold me-2">Questions ?</span>
+        <span class="me-2">Call us: {{ store.topNavBar.phoneNumber }}</span>
       </div>
   
       <div>
-        <span>Questions ? </span>
-        <span>Call us: {{ store.phoneNumber }}</span>
-      </div>
-  
-      <div>
-        <i class="fa-solid fa-bag-shopping"></i>
-        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-bag-shopping pe-2"></i>
+        <i class="fa-solid fa-user ps-2"></i>
       </div>
   
     </div>
@@ -51,12 +52,17 @@
 
 <style lang="scss" scoped>
 
-  @use '../../../assets/scss/main.scss';
+  @use '../../../assets/scss/main.scss' as *;
 
   
   .cs_header{
     height: 75px;
     border-bottom: 0.5px solid grey ;
+    .search_b{
+      background-color: $s_light_grey;
+      border-radius: 50px;
+      width: 370px;
+    }
     .logo_front{
       width: 240px;
       height: 40px;
