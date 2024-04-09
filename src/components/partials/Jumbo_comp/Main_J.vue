@@ -18,11 +18,19 @@
 <template>
   
   <section class="main_j">
-    <img :src="`/img/${store.jumbo.j_img}`" alt="jumbo_pic">
+    
   </section>
 
 </template>
 
 <style lang="scss" scoped>
+
+  @use '../../../assets/scss/main.scss' as *;
+
+  .main_j{
+    background-image: url(/img/banner-5-x-scaled.jpg);
+    background-size: cover;
+    height: 500px;
+  }
 
 </style>

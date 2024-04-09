@@ -20,7 +20,7 @@ export const store = reactive ({
   ],
 
   jumbo : {
-    j_img : 'banner-5-x-scaled',
+    j_img : 'banner-5-x-scaled.jpg',
     paw : 'bg-transparent-3'
   }
     
