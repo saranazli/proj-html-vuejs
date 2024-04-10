@@ -116,7 +116,7 @@
     height: 480px;
     .top_f_cont{
       height: 350px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+      border-bottom: 1px solid rgba(61, 111, 66, 255);
     }
     .logo_foot{
       width: 60px;

@@ -71,7 +71,52 @@ export const store = reactive ({
       'orders',
       'checkout',
       'cart'
-    ]
+    ],
+
+    centerFooter: {
+
+      homeLinks: [
+        {
+          name: 'home',
+          href: '#'
+        },
+        {
+          name: 'about',
+          href: '#'
+        },
+        {
+          name: 'blog',
+          href: '#'
+        },
+        {
+          name: 'contact',
+          href: '#'
+        },
+        {
+          name:'shop',
+          href: '#'
+        }
+      ],
+
+      socialLinks: [
+        {
+          name: '<i class="fa-brands fa-facebook-f"></i>',
+          href: 'https://www.facebook.com'
+        },
+        {
+          name: '<i class="fa-brands fa-twitter"></i>',
+          href: 'https://twitter.com/i/flow/login'
+        },
+        {
+          name: '<i class="fa-brands fa-instagram"></i>',
+          href: 'https://www.instagram.com/'
+        },
+        {
+          name: '<i class="fa-brands fa-youtube"></i>',
+          href: 'https://www.youtube.com/'
+        }
+      ],
+    }
 
   }
     
