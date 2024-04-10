@@ -26,14 +26,23 @@
 
 <template>
 
-  <Top_F />
+  <footer>
 
-  <Center_F />
+    <Top_F />
 
-  <Bottom_F />
+    <Center_F />
+
+    <Bottom_F />
+
+  </footer>
 
 </template>
 
 <style lang="scss" scoped>
+
+  footer{
+    height: 850px;
+  }
+
 
 </style>
