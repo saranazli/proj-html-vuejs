@@ -15,7 +15,7 @@
 
 <template>
 
-  <section class="bottom_j j_back d-flex justify-content-center align-items-end">
+  <section class="bottom_j paw_bg d-flex justify-content-center align-items-end">
 
     <div class="container-lg btm_h d-flex center">
 

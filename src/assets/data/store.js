@@ -58,7 +58,7 @@ export const store = reactive ({
     shop: [
 
       'Shop by brand',
-      'Bad',
+      'Bed',
       'food',
       'toys',
       'transport'

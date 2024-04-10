@@ -83,7 +83,13 @@
           </div>
 
           <div class="col-3 text-end">
-            k
+            
+            <div class="box_email paw_bg white text-start">
+              <h4>
+                Subscribe to our newsletter
+              </h4>
+            </div>
+
           </div>
 
         </div>
@@ -105,7 +111,7 @@
     height: 480px;
     .top_f_cont{
       height: 350px;
-      border-bottom: 1px solid pink;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     }
     .logo_foot{
       width: 60px;
@@ -118,17 +124,24 @@
       padding-left: 0px !important;
       text-transform: capitalize;
       li:first-child {
-      padding-bottom: 20px;
+      padding-bottom: 50px;
       font-size: 1.6rem;
       }
       li{
         font-size: 1rem;
-        padding-bottom: 8px;
+        padding-bottom: 15px;
         &:hover{
           cursor: pointer;
           text-decoration: underline;
         }
       }
+    }
+    .box_email{
+      width: 300px;
+      height: 300px;
+      background-color: rgba(38,66,41,255) !important;
+      border-radius: 10px;
+      padding: 40px;
     }
   }
 </style>

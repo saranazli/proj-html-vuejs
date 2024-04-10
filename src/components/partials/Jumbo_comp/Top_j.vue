@@ -14,7 +14,7 @@
 </script>
 
 <template>
-  <section class="top_j d-flex center white j_back">
+  <section class="top_j d-flex center white paw_bg">
     <div class="container-xl d-flex around center">
 
       <div>
