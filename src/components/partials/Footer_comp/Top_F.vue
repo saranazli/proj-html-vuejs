@@ -41,7 +41,7 @@
             <div>
              
               <div
-              class="mb-2" 
+              class="mb-2 ref" 
               v-for="ref in store.footer.ref" 
               :key="ref">
                 {{ ref }}
@@ -88,6 +88,11 @@
               <h4>
                 Subscribe to our newsletter
               </h4>
+
+              <input class="f_btn_cummon i" type="text" placeholder="insert your email...">
+
+              <button class="f_btn_cummon bold b"> Subscribe </button>
+
             </div>
 
           </div>
@@ -120,6 +125,9 @@
         filter: invert(100%);
       }
     }
+    .ref{
+      font-size: 1.2rem;
+    }
     .f_ref{
       padding-left: 0px !important;
       text-transform: capitalize;
@@ -142,6 +150,23 @@
       background-color: rgba(38,66,41,255) !important;
       border-radius: 10px;
       padding: 40px;
+      .f_btn_cummon{
+        border-radius: 25px;
+        border: none;
+        width: 100%;
+        height: 20%;
+      }
+      .i{
+        margin-bottom: 30px;
+        margin-top: 30px;
+      }
+      .i::placeholder{
+        padding-left: 15px;
+      }
+      .b{
+        background-color: rgba(61,111,66,255);
+        color: rgba(255, 255, 255,0.9);
+      }
     }
   }
 </style>

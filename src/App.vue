@@ -4,7 +4,6 @@
   import Footer from './components/Footer.vue';
   import Header from './components/Header.vue';
   import Jumbotron from './components/Jumbotron.vue';
-
   export default {
 
     components: {
@@ -32,7 +31,5 @@
 </template>
 
 <style lang="scss" scoped>
-
-  @use './assets/scss/main.scss';
 
 </style>
