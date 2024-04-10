@@ -38,25 +38,48 @@
               </div>
             </div>
 
-            <div class="d-flex justify-content-start f_ref">
-              <ul>
-                <li 
-                v-for="ref in store.footer.ref" 
-                :key="ref">
-                  {{ ref }}
-                </li>
-              </ul>
+            <div>
+             
+              <div
+              class="mb-2" 
+              v-for="ref in store.footer.ref" 
+              :key="ref">
+                {{ ref }}
+              </div>
+              
             </div>
 
 
           </div>
 
           <div class="col-3">
-            psdofk
+            
+            <div class="d-flex justify-content-start f_ref">
+              <ul>
+                <li
+                class="mb-2" 
+                v-for="shop in store.footer.shop" 
+                :key="shop">
+                  {{ shop }}
+                </li>
+              </ul>
+            </div>
+
           </div>
 
           <div class="col-3">
-            ljk
+            
+            <div class="d-flex justify-content-start f_ref">
+              <ul>
+                <li
+                class="mb-2" 
+                v-for="link in store.footer.links" 
+                :key="link">
+                  {{ link }}
+                </li>
+              </ul>
+            </div>
+
           </div>
 
           <div class="col-3 text-end">
@@ -92,7 +115,20 @@
       }
     }
     .f_ref{
-      padding: 0px !important;
+      padding-left: 0px !important;
+      text-transform: capitalize;
+      li:first-child {
+      padding-bottom: 20px;
+      font-size: 1.6rem;
+      }
+      li{
+        font-size: 1rem;
+        padding-bottom: 8px;
+        &:hover{
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
     }
   }
 </style>

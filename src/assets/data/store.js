@@ -53,6 +53,24 @@ export const store = reactive ({
       'info@your-company-com',
       'call us : (1) 234 5678'
 
+    ],
+
+    shop: [
+
+      'Shop by brand',
+      'Bad',
+      'food',
+      'toys',
+      'transport'
+    ],
+
+    links: [
+
+      'useful links',
+      'my account',
+      'orders',
+      'checkout',
+      'cart'
     ]
 
   }
