@@ -89,7 +89,7 @@
                 Subscribe to our newsletter
               </h4>
 
-              <input class="f_btn_cummon i" type="text" placeholder="insert your email...">
+              <input class="f_btn_cummon i" type="text" placeholder="insert your email...*">
 
               <button class="f_btn_cummon bold b"> Subscribe </button>
 

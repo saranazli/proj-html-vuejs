@@ -118,6 +118,38 @@ export const store = reactive ({
       ],
     }
 
+  },
+
+  main : {
+
+    whiteCategory : [
+
+      {
+        pic : 'product-9-300x300.jpg',
+        text: 'Bad (1)'
+      },
+      {
+        pic : 'product-3-300x300.jpg',
+        text: 'Food (6)'
+      },
+      {
+        pic : 'product-2-300x300.jpg',
+        text: 'Toys (6)'
+      },
+      {
+        pic : 'product-4-300x300.jpg',
+        text: 'Transport (6)'
+      }
+
+    ],
+
+    whiteLove : [
+
+      {
+        pic: '',
+        text: ''
+      }
+    ]
   }
     
 })

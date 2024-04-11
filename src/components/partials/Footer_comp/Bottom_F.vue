@@ -9,7 +9,7 @@
     
     <div class="copy">
       <div class="d-flex center h-100"> 
-        Copyright 2020
+        <span class="right">Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved| powered by WordPress</span>
       </div>
     </div>
 
@@ -29,6 +29,13 @@
   .copy{
     color: white;
     height: 100%;
+  }
+
+  .right::before{
+    font-family: "Font Awesome 5 Free" !important;
+    content: "\f1f9" !important;
+    font-weight: 400;
+    margin-right: 5px;
   }
 
 </style>
